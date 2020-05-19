@@ -1,0 +1,148 @@
+/*
+Developed By: Vedant Karia
+url: https://www.linkedin.com/in/vedant-karia-9a2216192/
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main {
+    padding: 2% 5% 0%;
+}
+
+#title {
+    font-size: 6em;
+    text-align: center;
+}
+
+#img-div {
+    border-radius: 15px;
+    padding: 30px 30px 10px;
+    background-color: #eee;
+    text-align: center;
+}
+
+#img {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 1px;
+    background-color: #ccc;
+    color: #222;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    font-size: 30px;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+#main {
+    border-radius: 15px;
+    text-align: left;
+    background-color: rgba(2, 148, 165, 0.4);
+    padding: 15px;
+    font-size: 18px;
+}
+
+#heading {
+    text-align: center;
+}
+
+#timeline,
+#points,
+#final {
+    font-size: 24px;
+}
+
+#main ul ol {
+    padding: 0 20vw;
+    text-align: left;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+#main ul li ol li {
+    font-weight: 100;
+}
+
+
+#main ul li ol li strong:after {
+    content: " - ";
+    font-weight: 100;
+    color: #444;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.75)
+    }
+
+    20% {
+        transform: scale(1)
+    }
+
+    40% {
+        transform: scale(.75)
+    }
+
+    60% {
+        transform: scale(1)
+    }
+
+    100%,
+    80% {
+        transform: scale(.75)
+    }
+}
+
+
+
+
+
+
+/*RESPONSIVE STARTS*/
+@media (max-width: 1200px) {
+    #main ul ol {
+        padding: 10px;
+    }
+
+    #img {
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 800px) {
+    #img {
+        width: 50%;
+        height: auto;
+    }
+
+    #main {
+        padding: 0;
+        margin: 0;
+    }
+
+    #main {
+        margin: 5px;
+    }
+
+    #main ul ol {
+        padding: 10px;
+    }
+
+}
+
+/*End Of File*/
